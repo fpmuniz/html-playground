@@ -1,0 +1,60 @@
+:root {
+	--dark-purple: #3E0B44;
+	--light-purple: #C88DCF;
+	--shadow: #544256;
+}
+
+#menu {
+	background-color: var(--light-purple);
+	text-align: center;
+	font-size: 18px;
+	margin: auto;
+	width: 75%;
+	border-radius: 10px;
+}
+
+nav a {
+	margin: 20px;
+}
+
+body {
+	background-color: var(--dark-purple);
+	color: var(--light-purple);
+	font-family: sans-serif;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+form {
+	width: 75%;
+	margin: auto;
+}
+
+fieldset {
+	border: none;
+	border-bottom: solid;
+	border-width: 2px;
+	margin: auto;
+	margin-top: 5px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px var(--shadow);
+	background-color: var(--light-purple);
+	color: var(--dark-purple);
+}
+
+.button {
+	text-align: center;
+	height: 200px;
+	border-bottom: none
+}
+
+#submit {
+	min-width: 100px;
+	position: relative;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}

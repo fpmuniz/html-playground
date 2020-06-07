@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="acai.css" type="text/css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Monte seu açaí</title>
+</head>
+
+<body>
+
+	<header>
+		<nav id="menu">
+			<a href="">Home</a>
+			<a href="">Pedir</a>
+			<a href="">GitHub</a>
+			<a href="">Sobre</a>
+		</nav>
+
+		<h1>Monte seu açaí!</h1>
+	</header>
+
+	<form method="POST">
+
+		<fieldset id="tamanho" class=choices>
+			<h2>Tamanho</h2>
+
+			<input type="radio" name="tamanho" id="300ml" value=300>
+			<label for="300ml">300mL</label>
+			<input type="radio" name="tamanho" id="500ml" value=500>
+			<label for="500ml">500mL</label>
+			<input type="radio" name="tamanho" id="700ml" value=700>
+			<label for="700ml">700mL</label>
+
+		</fieldset>
+
+		<fieldset id="adicionais" class=choices>
+			
+			<h2>Adicionais</h2>
+
+			<input type="checkbox" name="granola" id="granola">
+			<label for="granola">Granola</label>
+			<input type="checkbox" name="leite-ninho" id="leite-ninho">
+			<label for="leite-ninho">Leite ninho</label>
+			<input type="checkbox" name="pacoca" id=pacoca>
+			<label for="pacoca">Paçoca</label>
+			<input type="checkbox" name="mm" id="mm">
+			<label for="mm">M&M</label>
+			<input type="checkbox" name="bala-fini" id="bala-fini">
+			<label for="bala-fini">Bala Fini</label>
+
+		</fieldset>
+
+		<fieldset id="frutas" class=choices>
+
+			<h2>Frutas</h2>
+
+			<input type=checkbox name=banana id=banana>
+			<label for=banana>Banana</label>
+			<input type="checkbox" name="morango" id="morango">
+			<label for=morango>Morango</label>
+			<input type="checkbox" name="kiwi" id=kiwi>
+			<label for=kiwi>Kiwi</label>
+			<input type="checkbox" name="manga" id=manga>
+			<label for=manga>Manga</label>
+			<input type="checkbox" name="melao" id="melao">
+			<label for=melao>Melão</label>
+			<input type="checkbox" name="uva-verde" id="uva-verde">
+			<label for="uva-verde">Uva verde</label>
+
+		</fieldset>
+
+		<fieldset id=caldas class=choices>
+
+			<h2>Caldas</h2>
+
+			<input type="checkbox" name="mel" id="mel">
+			<label for=mel>Mel</label>
+			<input type="checkbox" name="calda-morango" id="calda-morango">
+			<label for=calda-morango>Morango</label>
+			<input type="checkbox" name="leite-condensado" id="leite-condensado">
+			<label for="leite-condensado">Leite condensado</label>
+			<input type="checkbox" name="nutella" id="nutella">
+			<label for="nutella">Nutella</label>
+			<input type="checkbox" name="chocolate" id="chocolate">
+			<label for="chocolate">Chocolate</label>
+
+		</fieldset>
+
+		<fieldset id=submit class=button>
+			<input type="submit" name="submit" id="submit" value="Enviar!">
+		</fieldset>
+
+	</form>
+
+</body>
+</html>
